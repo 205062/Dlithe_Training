@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main()
+{
+    int n;
+    int a,min=1001,max=0,sm,sx;
+    scanf("%d",&n);
+    for (int i=0;i<n;i++){
+        scanf("%d",&a);
+        if (a<min){
+            sm = min;
+            min = a;
+            
+        }
+        if (a>max){
+            sx = max;
+            max = a;
+        }
+    }
+    printf("%d\n",sm);
+    printf("%d\n",sx);
+    return 0;
+}

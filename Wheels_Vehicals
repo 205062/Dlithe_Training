@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+    int v,w,tw,fw;
+    scanf("%d",&v);
+    scanf("%d",&w);
+    fw = (w-2*v)/2;
+    tw = v - fw;
+    printf("%d \n",tw);
+    printf("%d",fw);
+
+    return 0;
+}
